@@ -1,23 +1,25 @@
 <?php 
     /*  Template Name: Servicios  */
 ?>
-<div class="mainContainer">
+<div class="serviciosContainer">
 <!--    HERO-->
     <section id="servicios-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7"></div>
-                <div class="col-md-5">
-                    <h2>
-                        Alojamiento en la nube
-                    </h2>
-                    <p>
-                    SOMA ofrece nuestra suite de software de mantenimiento de aviación RAAS tanto como una instalación interna tradicional como una solución de Software as a Service (SaaS) basada en la nube alojada. También existen esquemas de protección basados en la nube (DR).
-                    </p>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7"></div>
+                    <div class="col-md-5">
+                        <h2>
+                            Alojamiento en la nube
+                        </h2>
+                        <p>
+                        SOMA ofrece nuestra suite de software de mantenimiento de aviación RAAS tanto como una instalación interna tradicional como una solución de Software as a Service (SaaS) basada en la nube alojada. También existen esquemas de protección basados en la nube (DR).
+                        </p>
+                    </div>
+                    
                 </div>
-                   
             </div>
-        </div>
+        </section>
     </section>
 <!--   Fin HERO-->    
 
@@ -41,38 +43,62 @@
 
 <!-- Soluciones -->
     <section id="servicios-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7"></div>
-                <div class="col-md-5">
-                    <h2>
-                        Entrenamiento del sistema del usuario final
-                    </h2>
-                    <p>
-                            SOMA ofrece servicios de capacitación al usuario final para implementaciones iniciales y de forma continua.
-                            <br>
-                            Los profesionales de la formación de usuarios finales de SOMA cuentan con conocimientos especializados de los procedimientos estándar de la industria, así como de conocimientos íntimos o funciones RAAS. Esta combinación de habilidades permite que el personal de capacitación de AIS no sólo demuestre el mejor uso dentro de RAAS, sino también recomiende las mejores prácticas relacionadas con la industria.
-                    </p>
-                </div>
-            </div>            
-        </div>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7"></div>
+                    <div class="col-md-5">
+                        <h2>
+                            Entrenamiento del sistema del usuario final
+                        </h2>
+                        <p>
+                                SOMA ofrece servicios de capacitación al usuario final para implementaciones iniciales y de forma continua.
+                                <br>
+                                Los profesionales de la formación de usuarios finales de SOMA cuentan con conocimientos especializados de los procedimientos estándar de la industria, así como de conocimientos íntimos o funciones RAAS. Esta combinación de habilidades permite que el personal de capacitación de AIS no sólo demuestre el mejor uso dentro de RAAS, sino también recomiende las mejores prácticas relacionadas con la industria.
+                        </p>
+                    </div>
+                </div>            
+            </div>
+        </section>
     </section>
 <!-- Fin Soluciones-->
 
 <!-- Soluciones -->
     <section id="servicios-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <h2>
-                        Implementación Gestión de Proyectos
-                    </h2>
-                    <p>
-                        Teniendo en cuenta que los objetivos principales durante una implementación son evitar la confusión de datos, mantener las cargas de trabajo nuevas y redundantes a un mínimo y, en última instancia, mantener su avión volando a lo largo del proceso de implementación, está claro que un equipo de gestión experimentado es importante para el éxito de cualquier proyecto de implementación.                                
-                    </p>
-                </div>
-            </div>            
-        </div>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h2>
+                            Implementación Gestión de Proyectos
+                        </h2>
+                        <p>
+                            Teniendo en cuenta que los objetivos principales durante una implementación son evitar la confusión de datos, mantener las cargas de trabajo nuevas y redundantes a un mínimo y, en última instancia, mantener su avión volando a lo largo del proceso de implementación, está claro que un equipo de gestión experimentado es importante para el éxito de cualquier proyecto de implementación.                                
+                        </p>
+                    </div>
+                </div>            
+            </div>
+        </section>
     </section>
 <!-- Fin Soluciones-->
+
+<section id="servicios-5">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7"></div>
+                    <div class="col-md-5">
+                        <h1>
+                            Proyecto de Investigación  y Desarrollo
+                        </h1>
+                        <p>
+                        A medida que un cliente se expande hacia un uso más amplio de RAAS, a menudo es necesario considerar la mejor manera de implementar un proceso específico, o puede haber un requisito para modificar la funcionalidad RAAS de base para adaptarse a los flujos de trabajo existentes. Similar a un proceso de Gestión de Proyectos de Implementación, AIS puede proporcionar los recursos de expertos necesarios para ayudar a hacer el mejor uso del sistema de mantenimiento de aeronaves RAAS, o para diseñar modificaciones personalizadas efectivas
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </section>
+
 </div>

@@ -1,0 +1,7 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+dist
+wp-content/themes/soma/bower_components
+wp-content/themes/soma/node_modules
+wp-content/themes/soma/npm-debug.log
+wp-content/themes/soma/vendor

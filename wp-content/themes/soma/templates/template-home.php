@@ -142,55 +142,60 @@
     <section id="soluciones">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" style="height: 1%">
                     <h1 class="text-center">
                         Nuestras Soluciones
                     </h1>
                 </div>
-            <div class="col-md-4">
-                <img src="http://localhost/somawordpress/wp-content/uploads/2017/12/page-,-4.png"> 
-            </div>
-            <div class="col-md-4">
-                <img src="http://localhost/somawordpress/wp-content/uploads/2017/12/page-,.png">  
-            </div>
-            <div class="col-md-4">
-                <img src="http://localhost/somawordpress/wp-content/uploads/2017/12/page-1-1.png">    
-            </div>
-            <br>           
-            <div class="col-md-6">
-                <p class=" text-center">
-                    Mantenimineto,<br>
-                    ingenieria <br>
-                    y confiabilidad
-                </p>
-            </div>
-            <div class="col-md-6 text-center">
-                <p class=" text-center">
-                    Compras<br>
-                    e Inventario <br>
-                    de Componentes
-                </p>
-            </div>
-            <div class="col-md-4 text-center">
-                <p class=" text-center">
-                    Producción<br>
-                    Web / Movil App
-                </p>
-            </div>
-            <div class="col-md-4 text-center">
-                <p class=" text-center">
-                    Operaciones<br>
-                    de Vuelos
-                </p>
-            </div>
+                <div class="col-md-4 text-left">
+                    <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/white-soluciones-user.png"> 
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/white-soluciones-plane.png">  
+                </div>
+                <div class="col-md-4 text-right">
+                    <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/white-solucionessheet.png">    
+                </div>         
+                <div class="col-md-6">
+                    <p class=" text-center">
+                        Mantenimineto,<br>
+                        ingenieria <br>
+                        y confiabilidad
+                    </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <p class=" text-center">
+                        Compras<br>
+                        e Inventario <br>
+                        de Componentes
+                    </p>
+                </div>
+                <div class="col-md-4 text-left">
+                    <p class=" text-center">
+                        Producción<br>
+                        Web / Movil App
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p class=" text-center">
+                        Operaciones<br>
+                        de Vuelos
+                    </p>
+                </div>
 
-            <div class="col-md-4 text-center">
-                <p class=" text-center">
-                    Control<br>
-                    de Vencimiento <br>
-                    de Documentos
-                </p>
-            </div>
+                <div class="col-md-4 text-right">
+                    <p class=" text-center">
+                        Control<br>
+                        de Vencimiento <br>
+                        de Documentos
+                    </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/white-soluciones-config.png"> 
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/white-soluciones-house.png">  
+                </div>
             </div>
         </div>
     </section>

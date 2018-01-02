@@ -41,9 +41,6 @@ header{
     background-color: rgba(6, 83, 147, 0.25);
 }
 
-span{
-    color: #ff7828;
-}
 
 main{
     .main{
@@ -143,6 +140,11 @@ div.wrap.container{
         background-image: url('http://localhost/somawordpress/wp-content/uploads/2017/12/user.png');
         background-size: 100%;
     }
+
+    span{
+        color: #ff7828;
+    }
+
 }
 
 #info{
@@ -165,7 +167,7 @@ div.wrap.container{
     position: relative;
     padding-top: 8%;
     background-repeat: no-repeat;
-    background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/soluciones.png");
+    background-image: url("http://localhost/somawordpress/wp-content/uploads/2018/01/solucionesbackground.png");
     img{
         width: auto;
         height: 80px;
@@ -243,38 +245,61 @@ div.wrap.container{
 
 }
 
-#servicios-1{
-    background-repeat: no-repeat;
-    background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/1-servicio.png"),
-                        linear-gradient(to bottom, #0990ff, #083977);
-}
 
-#servicios-2{
-    background-repeat: no-repeat;
-    background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/2-servicio.png");
-    h1, p{
-        color: #454545;
+.serviciosContainer{ 
+    .container{
+        padding-top: 18%;
     }
-}
-#servicios-3{
-    background-repeat: no-repeat;
-    background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/3-servicio.png"),
-                        linear-gradient(to top, #ff5f00, #ca4c01);
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
-}
-#servicios-4{
-    background-repeat: no-repeat;
-    background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/4-servicio.png"),
-                        linear-gradient(to bottom, #04192a, #001a3c);
-    box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, 0.66);
-}
-#servicios-5{
-    background-repeat: no-repeat;
-    background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/5-servicio.png"),
-                        linear-gradient(to bottom, #ffffff, #e2e2e2 97%);;
-    box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, 0.66);
-}
-aside{
-    display: none;
-    width: 0px !important;
+    #servicios-1{
+        background-image: linear-gradient(to bottom, #0990ff, #083977);
+        section{
+            background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/1-servicio.png");
+            background-repeat: no-repeat;
+        
+            background-size: 70rem 50rem;
+        
+        }
+    }
+    #servicios-2{
+        background-repeat: no-repeat;
+        background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/2-servicio.png");
+        background-size: 100%;
+        h1, p{
+            color: #454545;
+        }
+    }
+    #servicios-3{
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to top, #ff5f00, #ca4c01);
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+        section{
+            background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/3-servicio.png");
+            background-repeat: no-repeat;
+            background-size: 65rem 50rem;
+        }
+    }
+    #servicios-4{
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to bottom, #04192a, #001a3c);
+        box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, 0.66);
+        section{
+            background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/4-servicio.png");
+            background-repeat: no-repeat;
+            background-size: 65rem 100rem;
+            background-position: right;
+        }
+    }
+    #servicios-5{
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to bottom, #ffffff, #e2e2e2 97%);;
+        box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, 0.66);
+        section{
+            background-image:  url("http://localhost/somawordpress/wp-content/uploads/2017/12/5-servicio.png");
+            background-repeat: no-repeat;
+            background-size: 65rem 50rem;
+        }
+        h1, p{
+            color: #454545;
+        }
+    }
 }

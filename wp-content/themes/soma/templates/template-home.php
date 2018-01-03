@@ -1,7 +1,6 @@
 <?php 
     /*  Template Name: Home  */
 ?>
-<div class="mainContainer">
 <!--    HERO-->
     <section id="hero">
         <div class="container">
@@ -142,7 +141,7 @@
     <section id="soluciones">
         <div class="container">
             <div class="row">
-                <div class="col-md-12" style="height: 1%">
+                <div class="col-md-12" style="height: 10%">
                     <h1 class="text-center">
                         Nuestras Soluciones
                     </h1>
@@ -292,26 +291,128 @@
 
 <!--    whatis-->
     <section id="whatis">
-        ¿Qué es Soma?
+        <div class="background"></div>            
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h1 class="text-left">
+                        ¿Qué es Soma?                        
+                    </h1>
+                    <p class="text-left">
+                        SOMA es un Software Aeronáutico SaaS, Web & App móvil que se adapta a las necesidades de la industria. Desde una escuela de vuelo, taxi aéreo o taller de servicio MRO, hasta una Aerolínea Comercial. 
+                    </p>
+                    <a href="#" class="btn pres">Descargar presentacion</a>
+                    <a href="#" class="btn demo">Prueba Soma gratis</a>
+                    <a href="#" class="btn coti">Solicita una cotizacion</a>
+                    <a href="https://itunes.apple.com/us/app/soma-software/id1259982451?mt=8">
+                        <img border="0" alt="W3Schools" src="http://localhost/somawordpress/wp-content/uploads/2018/01/601-i-9279142277-d-544-e-8.png">
+                    </a>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-6">
+                    <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/apple-devices.png" alt="">
+                </div>
+            </div>
+        </div>
     </section>
 <!--   Fin whatis--> 
 
 <!--    Socios-->
     <section id="socios">
-        Socios
+        <div class="background"></div>                        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h1 class="text-left">
+                        Socios estratégicos                       
+                    </h1>
+                    <p class="text-left">
+                        <span>Teravision Technologies</span>, empresa con más de 15 años de expereincia en desarrollo de software, con oficinas en Caracas y Bogotá y que cuenta con más de 140 programadores.
+                        <br>
+                        <span>HangarCentral.com</span>, la comunidad aeronáutica más grande de latinoamérica, la cual cuenta con más de 50.000 usuarios registrados.
+                    </p>
+                </div>
+                <div class="col-md-7">
+                    <div class="brand">
+                        <div class="text-center">
+                            <div class="a"></div>
+                            <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/logo-tera.png">                            
+                            <h3 class="text-center">
+                                teravisiontech.com
+                            </h3>
+                        </div>
+                        <div class="text-center">
+                            <div class="b"></div>
+                            <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/logo-hangar-central.png" alt="">
+                            <h3 class="text-center">
+                                hangarcentral.com    
+                            </h3>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 <!--   Fin Socios-->
 
 <!--    Testimonios-->
-    <section id="Testimonios">
-        Testimonios
+    <section id="testimonios">
+    <div class="background"></div>    
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <h1>
+              Testimonios
+            </h1>
+          </div>
+          <div class="col-md-7">
+          </div>
+        </div>
+      </div>
     </section>
 <!--   Fin Testimonios--> 
 
 <!--    contacto-->
-    <section id="contacto">
-        Contáctanos
+  <section id="webinar">
+    <div class="background"></div>    
+    <section>
+      <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <h1>webinar</h1>
+              <a class="btn" href="#">Regístrate</a>
+              <h4>Próximo webinar:</h4>
+              <p>25 de Septiembre 2017</p>
+              <h4>Último webinar:</h4>
+              <p>Control de inventario, compras, <br> cotizaciones y documentos.</p>
+            </div>
+            <div class="col-md-7">
+              <h1 class="text-right">Últimos artículos</h1>  
+              <div class="latest">
+                <div>
+                  <h3>CemAir Elige RAAS</h3>
+                  <p>Enfrentando desafíos típicos de la <br> operación de flota, CemAir…</p>
+                  <a class="tags" href="#">Aerolineas</a>
+                  <a class="tags" href="#">Flota</a>
+                  <a class="tags" href="#">RAAS</a>
+                  <br>
+                  <a class="more" href="#">Leer más</a>
+                </div>
+                <div>
+                  <h3>Hawai'i Island Air selecciona RAAS</h3>
+                  <p>Enfrentando desafíos típicos de la <br> operación de flota, CemAir ha…</p>
+                  <a class="tags" href="#">Aerolineas</a>
+                  <a class="tags" href="#">Flota</a>
+                  <a class="tags" href="#">RAAS</a>
+                  <br>
+                  <a class="more" href="#">Leer más</a>
+                </div>
+              </div>            
+            </div>
+          </div>
+      </div>
     </section>
+  </section>
 <!--   Fin contacto-->   
 
 </div>

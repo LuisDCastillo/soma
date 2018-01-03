@@ -19,7 +19,7 @@
 @import "layouts/tinymce";
 
 
-*{
+*{   
     width: 100%;
     font-family: BebasNeue; 
     font-style: normal;
@@ -172,7 +172,7 @@ div.wrap.container{
         width: auto;
         height: 80px;
     }
-    height: 1170px; 
+    height: 950px; 
 }
 
 #servicios{
@@ -233,16 +233,177 @@ div.wrap.container{
 
 }
 #whatis{
-
+    overflow: hidden;    
+    height: 500px;
+    padding-top: 5%;
+    position: relative;
+    background-image: linear-gradient(to bottom, #ffffff, #e2e2e2 97%);
+    h1, p{
+        color: #454545;
+    }
+    *{
+        z-index: 1;
+    }
+    .background{
+        background-color: #f2f2f2;
+        position: absolute;
+        z-index: 0 !important;
+        height: 1000px;
+        width: 1000px;
+        transform: rotate(29deg) translate(-298px,-345px);
+        box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.5);
+    }
+    a{
+        text-transform: uppercase;
+        color: #fff;
+        width: 200px;
+        height: 35px;
+        margin: 5px;
+        font-size: 0.8rem;
+        &.pres{
+            background-image: linear-gradient(to bottom, #ff5f00, #ca4c01);
+        }
+        &.demo{
+            background-image: linear-gradient(to bottom, #075596, #032b5d);
+        }
+        &.coti{
+            background-image: linear-gradient(to bottom, #0990ff, #083977);
+        }
+        img{
+            width: auto;
+            height: 35px;
+        }
+    }
 }
 #socios{
-
+    overflow: hidden;    
+    height: 600px;
+    padding-top: 5%;
+    position: relative;    
+    background-image: linear-gradient(to bottom, #ffffff, #e2e2e2 97%);
+    .background{
+        background-color: #f2f2f2;
+        position: absolute;
+        z-index: 0 !important;
+        height: 1100px;
+        width: 1000px;
+        transform: rotate(-29deg) translate(1057px,58px);
+        box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.5);        
+    }
+    h1, p, span{
+        color: #454545;
+    }
+    h3{
+        color: #545454;
+        font-size: 1rem;        
+    }
+    h1{
+        text-transform: uppercase;  
+    }
+    span{
+        font-weight: bold;
+    }
+    img{
+        width: 243px;
+        height: 143px;
+        object-fit: contain;
+    }
+    .brand{
+        display: inline-flex;
+        background-image: linear-gradient(to left, #ececec 4%, #ffffff 50%, #e8e8e8);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.29);
+        border: solid 1px #ffffff;
+        .a{
+            padding: 3rem 0;
+        
+            background-image: linear-gradient(to top, #ff5f00, #ca4c01);
+            max-height: 10px;
+            margin-right: 2px;
+        }
+        .b{
+            padding: 3rem 0;
+        
+            background-image: linear-gradient(to bottom, #004a6d, #0092ab);
+            box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.66);
+            height: 10px;
+            margin-left: 2px;            
+        }
+    }
 }
-#testimonios{
-
+#testimonios{   
+    overflow: hidden;        
+    position: relative;            
+    background-image: linear-gradient(to bottom, #075596, #032b5d);
+    box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.66);
+    height: 500px;
+    h1{
+        margin-top: 10%; 
+    }
+    .background{
+        background-color: #f2f2f2;
+        position: absolute;
+        z-index: 0 !important;
+        height: 1100px;
+        width: 1000px;
+        transform: rotate(29deg) translate(771px,-565px);
+        box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.5);        
+    }
 }
-#contacto{
+#webinar{   
+    overflow: hidden;        
+    background-image: linear-gradient(to top, #ff5f00, #ca4c01);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    position: relative;        
+    height: 500px;
+    h1{
+        margin-top: 20%; 
+    }
+    a{
+        color: #fff;
+        padding: 0.4rem;
+    }
+    .background{
+        background-image: linear-gradient(to bottom, #075596, #032b5d);
+        position: absolute;
+        z-index: 0 !important;
+        height: 1100px;
+        width: 1100px;
+        transform: rotate(29deg) translate(535px,-579px);
+        box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.5);        
+    }
+    .btn{
+        background-image: linear-gradient(to bottom, #075596, #032b5d);
+        color: #fff;
+        width: 60%;
+        margin: 1.5rem 0;
+    }
+    .tags{
+        border-radius: 48px;
+        border: solid 1px #ffffff
+    }
+    .more{
+        margin-top: 4rem;
+        border: solid 1px #ffffff;
+    }
+    .latest{
+        display: flex;
+        div{
+            margin: 2rem;
+            width: 40%;
+        }
+    }
+    section{
+        background-image: url("http://localhost/somawordpress/wp-content/uploads/2018/01/bitmap.png");
+        background-repeat: no-repeat;
+        background-size: 40rem 30rem;
+        background-position: center-left;
 
+        /*object-fit: contain;
+        opacity: 0.8;
+        mix-blend-mode: multiply;
+        -webkit-filter: blur(1.9px);
+        filter: blur(1.9px);*/
+    }
 }
 
 

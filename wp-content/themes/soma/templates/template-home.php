@@ -24,10 +24,12 @@
         <button type="button" class="btn btn-outline-light" style="width: auto;">
           Ver Video
         </button>
+
       </div>
       <div class="col-md-12">
         <div class="btn-group btn-group-justified btn-group-responsive">
           <button type="button" class="btn btn-primary">
+          <div class="hero-icon sheet"></div>            
             Solicita una cotización
           </button>
           <button type="button" class="btn btn-primary">
@@ -373,15 +375,22 @@
 
 <!--    Testimonios-->
 <section id="testimonios">
-  <div class="background"></div>
+  <div class="background1"></div>
+  <div class="background2"></div>
   <div class="container">
     <div class="row">
-      <div class="col-md-5">
-        <h1>
-          Testimonios
-        </h1>
-      </div>
-      <div class="col-md-7">
+      <div class="col-md-12">
+          <h1>
+            Testimonios
+          </h1>
+          <div class="owl-carousel">
+              <div class="carousel-element">
+                <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/3710.png" alt="">
+              </div>
+              <div class="carousel-element">
+                <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/media_check.jpg" alt="">
+              </div>
+            </div>
       </div>
     </div>
   </div>

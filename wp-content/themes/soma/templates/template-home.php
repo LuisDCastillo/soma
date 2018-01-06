@@ -62,7 +62,7 @@
         </h1>
       </div>
       <div class="col-md-4 elem text-center info-content">
-        <img src="http://localhost/somawordpress/wp-content/uploads/2017/12/plane.png">
+        <img src="wp-content/themes/soma/assets/images/2017/12/plane.png">
         <?php 
                         // the query
                         $args = array(
@@ -89,7 +89,7 @@
           </p>
       </div>
       <div class=" col-md-4 elem text-center info-content">
-        <img src="http://localhost/somawordpress/wp-content/uploads/2017/12/boardingpass.png">
+        <img src="wp-content/themes/soma/assets/images/2017/12/boardingpass.png">
         <?php 
                         // the query
                         $args = array(
@@ -118,7 +118,7 @@
           </p>
       </div>
       <div class="col-md-4 elem text-center info-content">
-        <img src="http://localhost/somawordpress/wp-content/uploads/2017/12/engine.png">
+        <img src="wp-content/themes/soma/assets/images/2017/12/engine.png">
         <?php 
                         // the query
                         $args = array(
@@ -161,13 +161,13 @@
         </h1>
       </div>
       <div class="col-md-4 text-left">
-        <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/white-soluciones-user.png">
+        <img src="wp-content/themes/soma/assets/images/2018/01/white-soluciones-user.png">
       </div>
       <div class="col-md-4 text-center">
-        <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/white-soluciones-plane.png">
+        <img src="wp-content/themes/soma/assets/images/2018/01/white-soluciones-plane.png">
       </div>
       <div class="col-md-4 text-right">
-        <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/white-solucionessheet.png">
+        <img src="wp-content/themes/soma/assets/images/2018/01/white-solucionessheet.png">
       </div>
       <div class="col-md-6">
         <p class=" text-center">
@@ -204,10 +204,10 @@
         </p>
       </div>
       <div class="col-md-6 text-center">
-        <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/white-soluciones-config.png">
+        <img src="wp-content/themes/soma/assets/images/2018/01/white-soluciones-config.png">
       </div>
       <div class="col-md-6 text-center">
-        <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/white-soluciones-house.png">
+        <img src="wp-content/themes/soma/assets/images/2018/01/white-soluciones-house.png">
       </div>
     </div>
   </div>
@@ -235,7 +235,7 @@
             <p class="card-text">
               SOMA ofrece nuestra suite de productos RAAS tanto como una instalación interna tradicional.
             </p>
-            <a href="http://localhost:3000/somawordpress/servicios" class="btn btn-outline-primary" style="width: auto;">
+            <a href="servicios" class="btn btn-outline-primary" style="width: auto;">
               Ver más
             </a>
           </div>
@@ -249,7 +249,7 @@
             <p class="card-text">
               SOMA ofrece migración de datos de aeronaves, configuración y servicios de actualización .
             </p>
-            <a href="http://localhost:3000/somawordpress/servicios" class="btn btn-outline-primary" style="width: auto;">
+            <a href="servicios" class="btn btn-outline-primary" style="width: auto;">
               Ver más
             </a>
           </div>
@@ -263,7 +263,7 @@
             <p class="card-text">
               SOMA ofrece servicios de capacitación para usuarios finales para implementaciones.
             </p>
-            <a href="http://localhost:3000/somawordpress/servicios" class="btn btn-outline-primary" style="width: auto;">
+            <a href="servicios" class="btn btn-outline-primary" style="width: auto;">
               Ver más
             </a>
           </div>
@@ -277,7 +277,7 @@
             <p class="card-text">
               Independientemente de si es un operador de inicio o una operación heredada, la implementación.
             </p>
-            <a href="http://localhost:3000/somawordpress/servicios" class="btn btn-outline-primary" style="width: auto;">
+            <a href="servicios" class="btn btn-outline-primary" style="width: auto;">
               Ver más
             </a>
           </div>
@@ -291,7 +291,7 @@
             <p class="card-text">
               Tanto para clientes nuevos como para clientes existentes, SOMA ofrece habilidades de analista.
             </p>
-            <a href="http://localhost:3000/somawordpress/servicios" class="btn btn-outline-primary" style="width: auto;">
+            <a href="servicios" class="btn btn-outline-primary" style="width: auto;">
               Ver más
             </a>
           </div>
@@ -320,12 +320,12 @@
         <a href="#" class="btn demo">Prueba Soma gratis</a>
         <a href="#" class="btn coti">Solicita una cotizacion</a>
         <a href="https://itunes.apple.com/us/app/soma-software/id1259982451?mt=8">
-          <img border="0" alt="W3Schools" src="http://localhost/somawordpress/wp-content/uploads/2018/01/601-i-9279142277-d-544-e-8.png">
+          <img border="0" alt="W3Schools" src="wp-content/themes/soma/assets/images/2018/01/601-i-9279142277-d-544-e-8.png">
         </a>
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-6">
-        <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/apple-devices.png" alt="">
+        <img src="wp-content/themes/soma/assets/images/2018/01/apple-devices.png" alt="">
       </div>
     </div>
   </div>
@@ -354,14 +354,14 @@
         <div class="brand">
           <div class="text-center">
             <div class="a"></div>
-            <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/logo-tera.png">
+            <img src="wp-content/themes/soma/assets/images/2018/01/logo-tera.png">
             <h3 class="text-center">
               teravisiontech.com
             </h3>
           </div>
           <div class="text-center">
             <div class="b"></div>
-            <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/logo-hangar-central.png" alt="">
+            <img src="wp-content/themes/soma/assets/images/2018/01/logo-hangar-central.png" alt="">
             <h3 class="text-center">
               hangarcentral.com
             </h3>
@@ -380,17 +380,17 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-          <h1>
-            Testimonios
-          </h1>
-          <div class="owl-carousel">
-              <div class="carousel-element">
-                <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/3710.png" alt="">
-              </div>
-              <div class="carousel-element">
-                <img src="http://localhost/somawordpress/wp-content/uploads/2018/01/media_check.jpg" alt="">
-              </div>
-            </div>
+        <h1>
+          Testimonios
+        </h1>
+        <div class="owl-carousel">
+          <div class="carousel-element">
+            <img src="wp-content/themes/soma/assets/images/2018/01/3710.png" alt="">
+          </div>
+          <div class="carousel-element">
+            <img src="wp-content/themes/soma/assets/images/2018/01/media_check.jpg" alt="">
+          </div>
+        </div>
       </div>
     </div>
   </div>

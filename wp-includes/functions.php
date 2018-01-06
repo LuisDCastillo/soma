@@ -5285,6 +5285,11 @@ function wp_auth_check_load() {
 	}
 }
 
+function add_theme_scripts(){
+	wp_enqueue_style( 'soma_style', get_template_directory_uri() . '/dist/styles/main.css',false );
+}
+
+add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 /**
  * Output the HTML that shows the wp-login dialog when the user is no longer logged in.
  *

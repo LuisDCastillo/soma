@@ -17,6 +17,8 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+@import "sections/servicios";
+@import "sections/soluciones";
 
 @font-face {
     font-family: BebasNeue;
@@ -114,10 +116,30 @@ header {
         }
     }
 }
-@media (min-width: 1400px){
+@media (max-width: 1800px){
     #webinar{
         .background{
-            transform: rotate(29deg) translate(438px,-485px);
+            transform: rotate(29deg) translate(723px,-649px);
+        }
+    }
+    #testimonios{
+        .background2{
+            transform: rotate(29deg) translate(1572px,-673px);
+        }
+        .background1{
+            transform: rotate(29deg) translate(-206px,-335px);
+            height: 1129px;
+            width: 1170px;
+        }
+    }
+    #socios{
+        .background{
+            transform: rotate(-30deg) translate(1102px,58px);
+        }
+    }
+    #whatis{
+        .background{
+            transform: rotate(29deg) translate(-258px,-345px);
         }
     }
 }
@@ -176,8 +198,8 @@ header {
 #hero{
     padding-top: 18%;
     background-repeat: no-repeat;
-    background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/group-48.png") ,
-                        url("http://localhost/somawordpress/wp-content/uploads/2017/12/foto-avion.png");
+    background-image: url("../../assets/images/2017/12/group-48.png") ,
+                        url("../../assets/images/2017/12/foto-avion.png");
     .btn-group{
         position: relative;
         bottom: 0px;
@@ -195,16 +217,16 @@ header {
             border: solid 1px #032d62;
             color: #002769;
             .sheet{
-                background-image: url('http://localhost/somawordpress/wp-content/uploads/2018/01/text-document.png');
+                background-image: url('../../assets/images/2018/01/blue-text-document.png');
             }
             .player{
-                background-image: url('http://localhost/somawordpress/wp-content/uploads/2018/01/video-player.png');                        
+                background-image: url('../../assets/images/2018/01/video-player.png');                        
             }
             .pc{
-                background-image: url('http://localhost/somawordpress/wp-content/uploads/2018/01/tiny-pc-copy.png');
+                background-image: url('../../assets/images/2018/01/tiny-pc-copy.png');
             }
             .user{
-                background-image: url('http://localhost/somawordpress/wp-content/uploads/2018/01/user.png');
+                background-image: url('../../assets/images/2018/01/user.png');
             }
         }
         
@@ -224,18 +246,18 @@ header {
         margin-left: 0.2rem;
     }
     .sheet{
-        background-image: url('http://localhost/somawordpress/wp-content/uploads/2018/01/text-document.png');
+        background-image: url('../../assets/images/2018/01/text-document.png');
         background-size: 70%;                
     }
     .player{
-        background-image: url('http://localhost/somawordpress/wp-content/uploads/2017/12/video-player.png');
+        background-image: url('../../assets/images/2017/12/video-player.png');
     }
     .pc{     
-        background-image: url('http://localhost/somawordpress/wp-content/uploads/2017/12/tiny-pc.png');
+        background-image: url('../../assets/images/2017/12/tiny-pc.png');
         background-size: 100%;        
     }
     .user{
-        background-image: url('http://localhost/somawordpress/wp-content/uploads/2017/12/user.png');
+        background-image: url('../../assets/images/2017/12/user.png');
     }
 
     span{
@@ -247,7 +269,7 @@ header {
 #info{
     padding-top: 10%;
     background-repeat: no-repeat;
-    background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/group-37.png");
+    background-image: url("../../assets/images/2017/12/group-37.png");
     .col-md-12{
         height: 10%;
     }
@@ -263,10 +285,9 @@ header {
 }
 
 #soluciones{
-    position: relative;
     padding-top: 5%;
     background-repeat: no-repeat;
-    background-image: url("http://localhost/somawordpress/wp-content/uploads/2018/01/solucionesbackground.png");
+    background-image: url("../../assets/images/2018/01/solucionesbackground.png");
     background-position: center;
     img{
         width: auto;
@@ -518,7 +539,7 @@ header {
         }
     }
     section{
-        background-image: url("http://localhost/somawordpress/wp-content/uploads/2018/01/bitmap.png");
+        background-image: url("../../assets/images/2018/01/bitmap.png");
         background-repeat: no-repeat;
         background-size: 40rem 30rem;
         background-position: center-left;
@@ -528,68 +549,5 @@ header {
         mix-blend-mode: multiply;
         -webkit-filter: blur(1.9px);
         filter: blur(1.9px);*/
-    }
-}
-
-
-.serviciosContainer{ 
-    section{
-        background-size: cover;  
-    }
-    
-    .container{
-        padding-top: 18%;
-    }
-    #servicios-1{
-        background-image: linear-gradient(to bottom, #0990ff, #083977);
-        section{
-            background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/1-servicio.png");
-            background-repeat: no-repeat;
-        
-            background-size: 70rem 50rem;
-        
-        }
-    }
-    #servicios-2{
-        background-repeat: no-repeat;
-        background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/2-servicio.png");
-        background-size: 100%;
-        h1, p{
-            color: #454545;
-        }
-    }
-    #servicios-3{
-        background-repeat: no-repeat;
-        background-image: linear-gradient(to top, #ff5f00, #ca4c01);
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
-        section{
-            background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/3-servicio.png");
-            background-repeat: no-repeat;
-            background-size: 65rem 50rem;
-        }
-    }
-    #servicios-4{
-        background-repeat: no-repeat;
-        background-image: linear-gradient(to bottom, #04192a, #001a3c);
-        box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, 0.66);
-        section{
-            background-image: url("http://localhost/somawordpress/wp-content/uploads/2017/12/4-servicio.png");
-            background-repeat: no-repeat;
-            background-size: 65rem 100rem;
-            background-position: right;
-        }
-    }
-    #servicios-5{
-        background-repeat: no-repeat;
-        background-image: linear-gradient(to bottom, #ffffff, #e2e2e2 97%);;
-        box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, 0.66);
-        section{
-            background-image:  url("http://localhost/somawordpress/wp-content/uploads/2017/12/5-servicio.png");
-            background-repeat: no-repeat;
-            background-size: 65rem 50rem;
-        }
-        h1, p{
-            color: #454545;
-        }
     }
 }

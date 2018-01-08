@@ -116,6 +116,14 @@ header {
     }
 }
 @media (max-width: 1800px){
+    #hero{
+        padding-bottom: 5%;
+        .btn-group.btn-group-responsive{
+            .btn{
+                width: 275px;
+            }
+        }
+    }
     #webinar{
         .background{
             transform: rotate(29deg) translate(723px,-649px);

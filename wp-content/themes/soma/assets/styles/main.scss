@@ -58,7 +58,6 @@ main{
 }
 
 section{
-    height: 800px;
     background-size: cover;  
 }
 
@@ -100,9 +99,6 @@ header {
     }
 }
 
-.container, .row{
-    height: 100%;
-}
 .header{
     background-color: rgba(6, 83, 147, 0.25);
 }
@@ -157,6 +153,14 @@ header {
 }
 
 @media (max-width: 767px) {
+    .btn-group.btn-group-responsive{
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        .btn{
+            width: 100%;    
+        }
+    }
     #info{
         .col-md-12{
             height: 12%; 
@@ -171,16 +175,15 @@ header {
 }
 
 @media (max-width: 991px) {
-
+    
     .btn-group.btn-group-responsive{
-        display: block;
+        display: flex;
         position: absolute;
         bottom: 0px;
         .btn{
-            width: 100%;    
+            width: 50%;    
         }
     }
-
           
           /*
           .btn-group.my-btn-group-responsive > .btn:first-child {
@@ -203,6 +206,10 @@ header {
     background-repeat: no-repeat;
     background-image: url("../../assets/images/2017/12/group-48.png") ,
                         url("../../assets/images/2017/12/foto-avion.png");
+    .col-lg-6{
+        padding-left:0;
+        padding-right: 0;
+    }
     .btn-group{
         position: relative;
         bottom: 0px;
@@ -270,7 +277,7 @@ header {
 }
 
 #info{
-    padding-top: 10%;
+    padding: 5% 0; 
     background-repeat: no-repeat;
     background-image: url("../../assets/images/2017/12/group-37.png");
     .col-md-12{
@@ -300,6 +307,7 @@ header {
 }
 
 #servicios{
+    overflow-y: scroll;
     padding-top: 8%;
     background-color: #ededed;
     h1{
@@ -362,9 +370,8 @@ header {
     }
 }
 #whatis{
-    overflow: hidden;    
-    height: 500px;
-    padding-top: 5%;
+    overflow: hidden;
+    padding: 8% 0;
     position: relative;
     background-image: linear-gradient(to bottom, #ffffff, #e2e2e2 97%);
     h1, p{

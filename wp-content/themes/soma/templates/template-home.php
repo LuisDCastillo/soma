@@ -26,7 +26,7 @@
         </button>
 
       </div>
-      <div class="col-md-12">
+      <div class="col-lg-6 col-md-12">
         <div class="btn-group btn-group-justified btn-group-responsive">
           <button type="button" class="btn btn-primary">
           <div class="hero-icon sheet"></div>            
@@ -36,6 +36,10 @@
             <div class="hero-icon pc"></div>
             Solicita una demostración
           </button>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12">        
+        <div class="btn-group btn-group-justified btn-group-responsive">          
           <button type="button" class="btn btn-primary">
             <div class="hero-icon player"></div>
             Regístrate en nuestro WEBINAR
@@ -61,6 +65,8 @@
           <br> En mantenimiento aeronáutico
         </h1>
       </div>
+    </div>
+    <div class="row">  
       <div class="col-md-4 elem text-center info-content">
         <img src="wp-content/themes/soma/assets/images/2017/12/plane.png">
         <?php 
@@ -308,7 +314,8 @@
   <div class="background"></div>
   <div class="container">
     <div class="row">
-      <div class="col-md-5">
+    <div class="col-md-1 d-none d-md-inline"></div>      
+      <div class="col-lg-6 col-sm-12 col-md-10">
         <h1 class="text-left">
           ¿Qué es Soma?
         </h1>
@@ -323,8 +330,7 @@
           <img border="0" alt="W3Schools" src="wp-content/themes/soma/assets/images/2018/01/601-i-9279142277-d-544-e-8.png">
         </a>
       </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-6">
+      <div class="col-md-6 d-none d-lg-block">
         <img src="wp-content/themes/soma/assets/images/2018/01/apple-devices.png" alt="">
       </div>
     </div>
@@ -337,7 +343,8 @@
   <div class="background"></div>
   <div class="container">
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-1 d-none d-md-inline"></div>
+      <div class="col-sm-12 col-lg-5 col-md-10">
         <h1 class="text-left">
           Socios estratégicos
         </h1>
@@ -349,8 +356,8 @@
           usuarios registrados.
         </p>
       </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-6">
+      <div class="col-md-1  d-none d-lg-block"></div>
+      <div class="col-lg-6 col-md-12 text-center">
         <div class="brand">
           <div class="text-center">
             <div class="a"></div>
@@ -403,7 +410,7 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-12 col-lg-5">
           <h1>webinar</h1>
           <a class="btn" href="#">Regístrate</a>
           <h4>Próximo webinar:</h4>
@@ -412,7 +419,7 @@
           <p>Control de inventario, compras,
             <br> cotizaciones y documentos.</p>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-12 col-lg-7">
           <h1 class="text-right">Últimos artículos</h1>
           <div class="latest">
             <div>

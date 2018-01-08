@@ -10,11 +10,14 @@
     #soluciones-1{
         background-image: linear-gradient(to bottom, #0990ff, #083977);
         section{
-            background-image: url("http://localhost/somawordpress/wp-content/uploads/2018/01/bg1.png");
+            background-image: url("./../assets/images/2018/01/bg1.png");
         }
     }
     #soluciones-2{
-        background-image: url("http://localhost/somawordpress/wp-content/uploads/2018/01/bg2.png");        background-size: 100%;
+        h2, p{
+            color: #000 !important;            
+        }
+        background-image: url("./../assets/images/2018/01/bg2.png");        background-size: 100%;
         h1, p{
             color: #454545;
         }
@@ -24,7 +27,7 @@
         background-image: linear-gradient(to top, #ff5f00, #ca4c01);
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
         section{
-            background-image: url("http://localhost/somawordpress/wp-content/uploads/2018/01/bg3.png");
+            background-image: url("./../assets/images/2018/01/bg3.png");
         }
     }
     #soluciones-4{
@@ -32,7 +35,7 @@
         background-image: linear-gradient(to bottom, #04192a, #001a3c);
         box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, 0.66);
         section{
-            background-image: url("http://localhost/somawordpress/wp-content/uploads/2018/01/bg4.png");
+            background-image: url("./../assets/images/2018/01/bg4.png");
         }
     }
     #soluciones-5{
@@ -40,7 +43,7 @@
         background-image: linear-gradient(to bottom, #ffffff, #e2e2e2 97%);;
         box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, 0.66);
         section{
-            background-image:  url("http://localhost/somawordpress/wp-content/uploads/2018/01/bg5.png");
+            background-image:  url("./../assets/images/2018/01/bg5.png");
         }
         h1, p{
             color: #454545;

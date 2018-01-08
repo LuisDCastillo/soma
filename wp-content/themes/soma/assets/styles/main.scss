@@ -35,6 +35,7 @@
     font-family: SanFranciscoDisplay; 
     font-style: normal;
     font-stretch: normal;
+    font-size: 18px;
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
@@ -108,6 +109,33 @@ header {
     color: hsla(0,0%,100%,1) !important;    
 }
 
+
+.owl-theme .owl-controls .owl-page {
+    display: inline-block;
+    }
+    .owl-theme .owl-controls .owl-page span {
+    background: none repeat scroll 0 0 #869791;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+    }
+
+.horizontal-scroll-wrapper {
+    width: 200px;
+    height: 1169px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform:rotate(-90deg) translateY(-100px);
+    transform-origin: right top;
+    div{
+        transform: rotate(-90deg);
+        transform-origin: right top;
+    }
+
+}
 @media (max-width: 1800px){
     #webinar{
         .background{
@@ -157,13 +185,13 @@ header {
         padding-bottom: 5%;
         .btn-group.btn-group-responsive{
             .btn{
-                width: 235px;    
+                width: 255px;    
             }
         }
     }
     #whatis{
         div.background{
-            transform: rotate(29deg) translate(-349px,-267px);
+            transform: rotate(29deg) translate(-355px,-282px);
         }
     }
     #socios{
@@ -238,7 +266,7 @@ header {
 }
 
 #hero{
-    padding-top: 18%;
+    padding-top: 14%;
     background-repeat: no-repeat;
     background-image: url("../../assets/images/2017/12/group-48.png") ,
                         url("../../assets/images/2017/12/foto-avion.png");
@@ -284,6 +312,10 @@ header {
             font-size: 4rem;            
         }
     }
+    .btn-outline-light{
+        text-transform: uppercase;
+        font-family: BebasNeue;        
+    }
     .hero-icon{
         height: 25px;
         width:25px;
@@ -308,12 +340,13 @@ header {
 
     span{
         color: #ff7828;
+        font-size: 2rem;
     }
 
 }
 
 #info{
-    padding: 5% 0; 
+    padding: 7% 0; 
     background-repeat: no-repeat;
     background-image: url("../../assets/images/2017/12/group-37.png");
     .col-md-12{
@@ -343,20 +376,20 @@ header {
 }
 
 #servicios{
-    overflow-y: scroll;
+
     padding-top: 8%;
     background-color: #ededed;
+    height: 640px;
     h1{
         color: #545454;
     }
     p{
         color: #454545;
         margin-top: 28px;
-        font-size: 20px;
-        font-size: 1rem;
+        font-size: 18px;
     }
     h4{
-        font-size: 1.2rem;
+        font-size: 21px;
         font-weight: bold;
     }
     .btn{
@@ -368,6 +401,9 @@ header {
     .btn-outline-primary{
         color:  #00296e;
         border-color: #00296e;
+    }
+    .top-rectangle{
+        display: table;
     }
     .top-rectangle.orange{
         width: 100%;
@@ -384,7 +420,7 @@ header {
     .card{
         width: 100px;
         max-width: 183px;
-        height: 300px;
+        height: 350px;
         background-image: linear-gradient(to bottom, #ffffff, #e9e9e9);
         box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5);
         border: solid 0.2px #979797;
@@ -420,7 +456,7 @@ header {
         background-color: #f2f2f2;
         position: absolute;
         z-index: 0 !important;
-        height: 1000px;
+        height: 1020px;
         width: 1000px;
         transform: rotate(29deg) translate(-298px,-345px);
         box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.5);
@@ -504,6 +540,7 @@ header {
     box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.66);
     height: 500px;
     background-color: #f2f2f2;
+    
     .owl-carousel{
         height: 100%;
         *{
@@ -520,7 +557,7 @@ header {
         z-index: 2;
         height: 1100px;
         width: 1000px;
-        transform: rotate(29deg) translate(-429px,-335px);
+        transform: rotate(29deg) translate(-409px,-335px);
         box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.5);        
     }
     .background2{

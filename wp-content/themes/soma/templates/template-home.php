@@ -26,7 +26,7 @@
         </button>
 
       </div>
-      <div class="col-lg-6 col-md-12">
+      <div class="col-lg-12 text-center">
         <div class="btn-group btn-group-justified btn-group-responsive">
           <button type="button" class="btn btn-primary">
           <div class="hero-icon sheet"></div>            
@@ -224,6 +224,7 @@
 <section id="servicios">
   <div class="container">
     <div class="row">
+
       <div class="col-md-12">
         <h1 class="text-center">
           Servicios
@@ -323,7 +324,7 @@
           SOMA es un Software Aeronáutico SaaS, Web & App móvil que se adapta a las necesidades de la industria. Desde una escuela
           de vuelo, taxi aéreo o taller de servicio MRO, hasta una Aerolínea Comercial.
         </p>
-        <a href="#" class="btn pres">Descargar presentacion</a>
+        <a href="wp-content/themes/soma/assets/pdf/pdf.pdf" class="btn pres">Descargar presentacion</a>
         <a href="#" class="btn demo">Prueba Soma gratis</a>
         <a href="#" class="btn coti">Solicita una cotizacion</a>
         <a href="https://itunes.apple.com/us/app/soma-software/id1259982451?mt=8">
@@ -384,19 +385,18 @@
   <div class="background1"></div>
   <div class="background2"></div>
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
+    <div class="row owl-carousel owl-theme">
+      <div class="col-lg-12">
         <h1>
           Testimonios
         </h1>
-        <div class="owl-carousel">
-          <div class="carousel-element">
-            <img src="wp-content/themes/soma/assets/images/2018/01/3710.png" alt="">
-          </div>
-          <div class="carousel-element">
-            <img src="wp-content/themes/soma/assets/images/2018/01/media_check.jpg" alt="">
-          </div>
+        <div class="carousel-element">
+          <img src="wp-content/themes/soma/assets/images/2018/01/3710.png" alt="">
         </div>
+        <div class="carousel-element">
+          <img src="wp-content/themes/soma/assets/images/2018/01/media_check.jpg" alt="">
+        </div>
+
       </div>
     </div>
   </div>

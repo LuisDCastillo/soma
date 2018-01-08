@@ -79,6 +79,8 @@
       loop:true,
       margin:10,
       nav:true,
+      autoplay: 10,
+      autoplayHoverPause:true,
       responsive:{
           0:{
               items:1

@@ -144,23 +144,42 @@ header {
 }
 
 
-@media (max-width: 1366px){
+@media (max-width: 1367px){
+    #hero{
+        padding-bottom: 5%;
+        .btn-group.btn-group-responsive{
+            .btn{
+                width: 235px;    
+            }
+        }
+    }
     #whatis{
         div.background{
-            transform: rotate(29deg) translate(-277px,-316px);
+            transform: rotate(29deg) translate(-349px,-267px);
+        }
+    }
+    #socios{
+        div.background{
+            transform: rotate(-30deg) translate(963px,58px);
         }
     }
 }
 
-@media (max-width: 767px) {
-    .btn-group.btn-group-responsive{
-        display: block;
-        position: absolute;
-        bottom: 0px;
-        .btn{
-            width: 100%;    
+@media (max-width: 640px){
+    #hero{
+        .btn-group.btn-group-responsive{
+            display: block;
+            .btn{
+                float: right;
+                width: 100% !important;    
+            }
         }
     }
+
+}
+
+@media (max-width: 768px) {
+
     #info{
         .col-md-12{
             height: 12%; 
@@ -168,23 +187,32 @@ header {
     }
     #whatis{
         height: 300px;
-        .col-md-6{
-            display: none;
+    }
+    #webinar{
+        div.background{
+            transform: rotate(0deg) translate(-3px,518px);
         }
     }
 }
 
 @media (max-width: 991px) {
-    
+    #hero{
+        padding-bottom: 0%;
+    }
     .btn-group.btn-group-responsive{
-        display: flex;
+        display: block;
         position: absolute;
         bottom: 0px;
         .btn{
-            width: 50%;    
+            float: right;
+            width: 50% !important;    
         }
     }
-          
+    #webinar{
+        div.background{
+            transform: rotate(0deg) translate(-3px,518px);
+        }
+    }
           /*
           .btn-group.my-btn-group-responsive > .btn:first-child {
             border-radius: 6px 6px 0 0;
@@ -215,7 +243,7 @@ header {
         bottom: 0px;
         .btn{
             display: flex;
-            
+            white-space: initial;
             background-image: linear-gradient(to bottom, #024eac, #032d62);
             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
             border: solid 1px #032d62;
@@ -504,8 +532,10 @@ header {
     overflow: hidden;        
     background-image: linear-gradient(to top, #ff5f00, #ca4c01);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
-    position: relative;        
-    height: 500px;
+    position: relative;
+    h3{
+        font-weight: bold;
+    }
     h1{
         margin-top: 20%; 
         padding-right: 10%;
@@ -520,7 +550,7 @@ header {
         z-index: 0 !important;
         height: 1100px;
         width: 1100px;
-        transform: rotate(29deg) translate(337px,-466px);
+        transform: rotate(29deg) translate(316px,-466px);
         box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.5);        
     }
     .btn{
@@ -545,7 +575,7 @@ header {
             width: 40%;
         }
         h3{
-            height: 60px;
+            height: 80px;
         }
     }
     section{

@@ -324,7 +324,7 @@
           SOMA es un Software Aeronáutico SaaS, Web & App móvil que se adapta a las necesidades de la industria. Desde una escuela
           de vuelo, taxi aéreo o taller de servicio MRO, hasta una Aerolínea Comercial.
         </p>
-        <a href="wp-content/themes/soma/assets/pdf/pdf.pdf" class="btn pres">Descargar presentacion</a>
+        <a href="wp-content/themes/soma/assets/pdf/pdf.pdf" download="presentacion.pdf" class="btn pres">Descargar presentacion</a>
         <a href="#" class="btn demo">Prueba Soma gratis</a>
         <a href="#" class="btn coti">Solicita una cotizacion</a>
         <a href="https://itunes.apple.com/us/app/soma-software/id1259982451?mt=8">
